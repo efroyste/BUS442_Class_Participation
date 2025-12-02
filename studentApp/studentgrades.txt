@@ -1,0 +1,9 @@
+1001,Fred Renk,B
+1002,Steve Allen,B
+1003,Genna Wood,A
+1004,John Doe,A
+9383,emily,A
+93893,emma,A
+9393,eve,A
+897,emma,A
+67,bug,D

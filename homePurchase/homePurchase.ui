@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>homePurchase</class>
+ <widget class="QMainWindow" name="homePurchase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Home Purchase</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tbMainTab">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>731</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tbHomePurchase">
+     <attribute name="title">
+      <string>Home Purchase</string>
+     </attribute>
+     <widget class="QLineEdit" name="txtCustomerName">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>60</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblCustomerName">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>60</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Please enter your name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblCustomerAge">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>90</y>
+        <width>111</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Please enter your age</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtCustomerAge">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>90</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="cmbHouseSelection">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>140</y>
+        <width>104</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <item>
+       <property name="text">
+        <string>Apartment</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Townhouse</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Single-Family Home</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Luxury Villa</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="lblHouseSelection">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>140</y>
+        <width>141</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Please select your house type</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="grbModelType">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>190</y>
+        <width>171</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="title">
+       <string>Select your model type</string>
+      </property>
+      <widget class="QRadioButton" name="rdStandard">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Standard</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="rdSmart">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Smart</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="rdLuxury">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>100</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>Luxury</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="lblInitialDownPayment">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>310</y>
+        <width>221</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Please enter your initial down payment amount</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtInitialDownPayment">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>310</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QListWidget" name="lstMonthlyPayments">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>270</y>
+        <width>251</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblMonthlyPayments">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>250</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Monthly Payments</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnPurchase">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>430</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Purchase</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnShowPayments">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>430</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Show payments</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnExit">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>430</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnClear">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>430</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Clear</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tbPurchasesMade">
+     <attribute name="title">
+      <string>Purchases Made</string>
+     </attribute>
+     <widget class="QListWidget" name="lstPastHomePurchases">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>110</y>
+        <width>256</width>
+        <height>192</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblPastHomePurchases">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>80</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Past Home Purchases</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

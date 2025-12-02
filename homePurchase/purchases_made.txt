@@ -1,0 +1,10 @@
+Emily,20,Single-Family Home,Standard,2000
+Emily,21,Apartment,Smart,4000
+emily,20,Apartment,Standard,2,000
+John,52,Luxury Villa,Luxury,50,000
+John,52,Luxury Villa,Luxury,50000
+emily,23,Apartment,Smart,1000
+emily,24,Apartment,Smart,2000
+em,20,Single-Family Home,Smart,4000
+emily,20,Apartment,Smart,1000
+emily royster,30,Single-Family Home,Luxury,4000

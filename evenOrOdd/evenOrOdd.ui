@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>evenOrOdd</class>
+ <widget class="QMainWindow" name="evenOrOdd">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Even Or Odd</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lblNumer">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>190</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Enter a number</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtNumber">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>190</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnResult">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>250</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Even Or Odd</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblResult">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>300</y>
+      <width>201</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Is number even or odd?</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txtResult">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>300</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>37</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

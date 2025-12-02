@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>studentApp</class>
+ <widget class="QMainWindow" name="studentApp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Student App</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tbStudent">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>721</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tbStudentInfo">
+     <attribute name="title">
+      <string>Student Info</string>
+     </attribute>
+     <widget class="QLabel" name="lblStudentID">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>80</y>
+        <width>60</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Student ID</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblStudentName">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>110</y>
+        <width>60</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="lblStudentScore">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>140</y>
+        <width>60</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Score</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtStudentID">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>70</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtName">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>100</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="txtScore">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>130</y>
+        <width>113</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnDisplayData">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>220</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Display Data</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnInsertData">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>220</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Insert Data</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="twStudentData">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>250</y>
+        <width>256</width>
+        <height>192</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tbStudentGrade">
+     <attribute name="title">
+      <string>Student Grade</string>
+     </attribute>
+     <widget class="QListWidget" name="lstStudentData">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>20</y>
+        <width>256</width>
+        <height>192</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnExportData">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>250</y>
+        <width>113</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Export Data</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
